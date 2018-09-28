@@ -1,0 +1,4 @@
+0:0:0:0:0:0:0:1 - - [28/Sep/2018:11:00:38 +0600] "GET /FreshSpring HTTP/1.1" 302 - http-bio-8080-exec-1 0
+0:0:0:0:0:0:0:1 - - [28/Sep/2018:11:00:38 +0600] "GET /FreshSpring/ HTTP/1.1" 200 318 http-bio-8080-exec-3 127
+0:0:0:0:0:0:0:1 - - [28/Sep/2018:11:00:38 +0600] "GET /favicon.ico HTTP/1.1" 404 - http-bio-8080-exec-4 0
+0:0:0:0:0:0:0:1 - - [28/Sep/2018:11:00:40 +0600] "GET /FreshSpring/helloworld.html HTTP/1.1" 200 259 http-bio-8080-exec-5 162
