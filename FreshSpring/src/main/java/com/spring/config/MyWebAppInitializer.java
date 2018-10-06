@@ -19,7 +19,7 @@ public class MyWebAppInitializer implements WebApplicationInitializer {
     @Override
     public void onStartup(ServletContext container) {
         AnnotationConfigWebApplicationContext context = new AnnotationConfigWebApplicationContext();
-        context.setConfigLocation("com.spring.config");
+        context.setConfigLocation("com.spring");
         container.addListener(new ContextLoaderListener(context));
         ServletRegistration.Dynamic dispatcher = container
                 .addServlet("dispatcher", new DispatcherServlet(context));

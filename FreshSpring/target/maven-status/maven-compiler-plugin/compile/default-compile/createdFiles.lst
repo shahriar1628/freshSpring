@@ -1,3 +1,4 @@
 com\spring\config\DispatcherConfig.class
 com\spring\config\MyWebAppInitializer.class
+com\spring\bin\Vehicle.class
 com\spring\controller\HelloWorldController.class
