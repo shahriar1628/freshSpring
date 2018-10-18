@@ -2,6 +2,8 @@ package com.spring.controller;
 
 import com.spring.bin.Vehicle;
 import com.spring.config.DispatcherConfig;
+import com.spring.entity.Student;
+import com.spring.repossitory.StudentRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
@@ -16,10 +18,16 @@ public class HelloWorldController {
 
     @Autowired
     private Vehicle vh;
+
+    @Autowired
+    StudentRepository studentRepository;
     @RequestMapping("/helloworld")
     public ModelAndView hello() {
         System.out.println("enter controller");
         vh.run();
+        Student student = new Student("shahriar",12);
+        studentRepository.save(student);
+
 
         String helloWorldMessage = "Hello world";
         return new ModelAndView("hello", "message", helloWorldMessage);
