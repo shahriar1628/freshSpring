@@ -3,6 +3,8 @@ package com.spring.repossitory;
 import com.spring.entity.Student;
 import org.springframework.data.repository.CrudRepository;
 
-public interface StudentRepository extends CrudRepository<Student, Integer> {
+import java.util.List;
+
+public interface StudentRepository extends  CrudRepository<Student, Integer> {
 
 }

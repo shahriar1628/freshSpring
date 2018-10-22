@@ -1,6 +1,7 @@
-com\spring\config\DispatcherConfig.class
 com\spring\config\MyWebAppInitializer.class
+com\spring\controller\StudentController.class
 com\spring\entity\Student.class
 com\spring\bin\Vehicle.class
+com\spring\config\DispatcherConfig.class
 com\spring\repossitory\StudentRepository.class
 com\spring\controller\HelloWorldController.class
