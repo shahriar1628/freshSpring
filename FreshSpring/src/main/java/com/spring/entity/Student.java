@@ -1,11 +1,14 @@
 package com.spring.entity;
 
+import org.springframework.context.annotation.Bean;
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
+
 
 @Entity
 @Table(name = "student")
@@ -39,13 +42,13 @@ public class Student {
     public String getName() {
         return name;
     }
-    public void setCountryName(String name) {
-        this.name = name;
+    public void  setName(String name) {
+        this.name = name ;
     }
     public int getAge() {
         return age ;
     }
-    public void setPopulation(int age) {
+    public void setAge(int age) {
         this.age = age;
     }
 

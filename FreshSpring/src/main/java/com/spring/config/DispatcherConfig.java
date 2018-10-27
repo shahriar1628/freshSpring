@@ -1,6 +1,8 @@
 package com.spring.config;
 
 import com.spring.bin.Vehicle;
+import com.spring.entity.Student;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
